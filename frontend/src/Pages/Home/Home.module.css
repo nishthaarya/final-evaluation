@@ -1,0 +1,59 @@
+.heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    background-color: rgb(118, 248, 237);
+    color: rgb(3, 56, 56);
+    text-align: center;
+    padding: 70px 0px 100px 0px;
+}
+
+.full {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    background-color: rgb(118, 248, 237);
+    color: rgb(3, 56, 56);
+    min-height: 100vh;
+}
+
+.guest {
+    display: flex;
+    flex-direction: column;
+}
+
+.guest > div {
+    border: 2px solid rgb(3, 56, 56);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.guest > div:hover {
+    border: 2px solid white;
+}
+
+.admin {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+.admin > div {
+    border: 2px solid rgb(3, 56, 56);
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s ease;
+    margin-left: 40px;
+}
+
+.admin > div:hover {
+    border: 2px solid white;
+}
